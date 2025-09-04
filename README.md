@@ -25,7 +25,7 @@ https://cdn.openai.com/deep-research-system-card.pdf
 | -------- | ------------------------------------------------------------ |
 | 2025.9.1 | 阅读A Comprehensive Survey of Deep Research: Systems, Methodologies, and Applications，和之前读的一起加起来读到了第四章。papers文件夹里有论文原文与批注、论文概况。 |
 | 9.2      | 看到第七章                                                   |
-|          |                                                              |
+| 9.3-9.4  | 看完余下章节，总结了一下全篇（主要是前几章）                 |
 
 
 
