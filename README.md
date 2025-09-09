@@ -34,7 +34,7 @@ https://cdn.openai.com/deep-research-system-card.pdf
 
 
 
-##### DEEP RESEARCH AGENTS: A SYSTEMATIC EXAMINATION AND ROADMAP
+##### ✅DEEP RESEARCH AGENTS: A SYSTEMATIC EXAMINATION AND ROADMAP
 
 https://arxiv.org/pdf/2506.18096
 
@@ -128,7 +128,8 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 | 9.2      | 看到第七章                                                   |
 | 9.3-9.4  | 看完余下章节，总结了一下全篇（主要是前几章）                 |
 | 9.5-9.6  | 看完openai的Deep Research System Card ，了解了一些评估与其能力、存在风险 |
-| 9.7-9.8  | 又找了一些论文和开源的项目准备看，看完了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP，比第一篇survey清晰一些，框架更为清楚但具体细节未交代需要找开源的看。 |
+| 9.7-9.8  | 又找了一些论文和开源的项目准备看，看部分了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP，比第一篇survey清晰一些，框架更为清楚但具体细节未交代需要找开源的看。 |
+| 9.9      | 读完了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP |
 
 
 
