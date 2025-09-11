@@ -38,7 +38,7 @@ https://cdn.openai.com/deep-research-system-card.pdf
 
 https://arxiv.org/pdf/2506.18096
 
-💥💥💥对构成深度研究代理的基础技术和架构组件进行了详细分析
+📢💥💥💥对构成深度研究代理的基础技术和架构组件进行了详细分析，我觉得讲的挺清晰的，比较凝练。没太多废话。
 
 
 
@@ -120,6 +120,27 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 
 
 
+### deep research 实例
+
+1. https://chatgpt.com/share/67b142cb-030c-8011-b0c8-8a1071dd8094 
+   [OpenAI Deep Research 案例分享 - 深度研究技术综合研究报告 | Yue Shui 博客](https://syhya.github.io/zh/posts/2025-02-15-deep-research-tech-report/)
+   
+   
+   一个博主分享的用OpenAI Deep Research写报告的实例（*对“深度研究”技术进行深入研究，并编写一份综合研究报告*）
+   
+2. [OpenManus/examples/use_case at main · FoundationAgents/OpenManus · GitHub](https://github.com/FoundationAgents/OpenManus/tree/main/examples/use_case)
+   官网的图片显示不出来，github上又只有这一个例子
+   [OpenManus 项目概览 | mannaandpoem/OpenManus - KoalaWiki](https://opendeep.wiki/mannaandpoem/OpenManus/overview)
+   
+3. https://github.com/langchain-ai/open_deep_research?tab=readme-ov-file
+   langchain 一个开源的deep research框架，调用其他LLM的api key 实现深度研究
+   类似的，dify低代码平台
+
+4. https://www.doubao.com/chat
+   豆包免费，
+
+
+
 ### 每日进度
 
 | 时间     |                                                              |
@@ -130,6 +151,7 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 | 9.5-9.6  | 看完openai的Deep Research System Card ，了解了一些评估与其能力、存在风险 |
 | 9.7-9.8  | 又找了一些论文和开源的项目准备看，看部分了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP，比第一篇survey清晰一些，框架更为清楚但具体细节未交代需要找开源的看。 |
 | 9.9      | 读完了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP |
+| 9.11     | 看了一些实例，用豆包试了一下deep research                    |
 
 
 
@@ -141,7 +163,7 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 
 | 时间 | 位置                        | 具体问题                                                     | 是否解决 |
 | ---- | --------------------------- | ------------------------------------------------------------ | -------- |
-| 9.1  | 关于deep research的实际用例 | 我还没有用过，得花时间试一下比如perplexity，openai deep research | no       |
+| 9.1  | 关于deep research的实际用例 | 我还没有用过，得花时间试一下比如perplexity，openai deep research | yes      |
 | 9.6  | deep research框架           | 还要找个开源的看看框架，流程之类的                           | no       |
 |      |                             |                                                              |          |
 |      |                             |                                                              |          |
