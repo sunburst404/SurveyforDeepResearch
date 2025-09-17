@@ -24,13 +24,16 @@ https://cdn.openai.com/deep-research-system-card.pdf
 
 [[2508.05668v1\] A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges](https://arxiv.org/abs/2508.05668v1)\
 
-📢👋这篇survey主要聚焦的是 Search Agents搜索信息的方法、优化agents架构方法、深度信息挖掘方面的能力，而Deep Research 代表了一种更先进的代理式实现，具备多步推理、代码执行和动态路径调整等能力。没怎么读
+📢❎这篇survey主要聚焦的是 **Search Agents搜索信息**的方法、优化agents架构方法、深度信息挖掘方面的能力，而Deep Research 代表了一种更先进的代理式实现，具备多步推理、代码执行和动态路径调整等能力。没怎么读
 
 
 
-##### Toolformer: Language Models Can Teach Themselves to Use Tools
+##### ✅Toolformer: Language Models Can Teach Themselves to Use Tools
 
-[2302.04761](https://arxiv.org/pdf/2302.04761)训练LLMs使用工具api
+[2302.04761](https://arxiv.org/pdf/2302.04761)NeurIPS 2023
+训练LLMs使用工具api
+
+Toolformer，通过自我监督的方式学习如何使用不同的工具，例如搜索引擎、计算器和翻译系统，方法是通过简单的**API调用**。这是通过对大量经过过滤的API调用进行微调实现的。在数学上比较优异，但在QA上提升一般，但是提出了“让LLMs学习怎么使用工具”推动了DEEP RESAEARCH的发展。
 
 
 
@@ -38,17 +41,23 @@ https://cdn.openai.com/deep-research-system-card.pdf
 
 https://arxiv.org/pdf/2506.18096
 
-📢💥💥💥对构成深度研究代理的基础技术和架构组件进行了详细分析，我觉得讲的挺清晰的，比较凝练。没太多废话。
+📢💥💥💥对构成深度研究代理的基础技术、架构组件、未来的路线图进行了详细分析，我觉得讲的挺清晰的，比较凝练。没太多废话。
 
 
 
 
 
-##### Deep Research: A Survey of Autonomous Research Agents
+##### ✅Deep Research: A Survey of Autonomous Research Agents
 
 [Deep Research: A Survey of Autonomous Research Agents](https://arxiv.org/pdf/2508.12752)
 
-Abstract: The rapid advancement of large language models (LLMs) has driven the development of agentic systems capable of autonomously performing complex tasks. Despite their impressive capabilities, LLMs remain constrained by their internal knowledge boundaries. To overcome these limitations, the paradigm of deep research has been proposed, wherein agents actively engage in planning, retrieval, and synthesis to generate comprehensive and faithful analytical reports grounded in web-based evidence. In this survey, we provide a systematic overview of the deep research pipeline, which comprises four core stages: planning, question developing, web exploration, and report generation. For each stage, we analyze the key technical challenges and categorize representative methods developed to address them. Furthermore, we summarize recent advances in optimization techniques and benchmarks tailored for deep research. Finally, we discuss open challenges and promising research directions, aiming to chart a roadmap toward building more capable and trustworthy deep research agents. 
+> Abstract: The rapid advancement of large language models (LLMs) has driven the development of agentic systems capable of autonomously performing complex tasks. Despite their impressive capabilities, LLMs remain constrained by their internal knowledge boundaries. To overcome these limitations, the paradigm of deep research has been proposed, wherein agents actively engage in planning, retrieval, and synthesis to generate comprehensive and faithful analytical reports grounded in web-based evidence. In this survey, we provide a systematic overview of the deep research pipeline, which comprises four core stages: planning, question developing, web exploration, and report generation. For each stage, we analyze the key technical challenges and categorize representative methods developed to address them. Furthermore, we summarize recent advances in optimization techniques and benchmarks tailored for deep research. Finally, we discuss open challenges and promising research directions, aiming to chart a roadmap toward building more capable and trustworthy deep research agents. 
+>
+
+📢这篇主要是说明他们提出的deep research所拥有的四个比较有特色的流程：planning, question developing, web exploration, and report generation。
+文中说了与前两篇综述的关系：以**能力形成和集成为中心**，揭示方法之间的深层联系，为演化设计范式提供洞察。所以我读起来的感觉就是全文就只有这四个方面如何工作的、有哪些工作方式和可有可无的公式，不过大体上还是很清晰但是真正的内容感觉很少。
+
+
 
 
 
@@ -56,7 +65,8 @@ Abstract: The rapid advancement of large language models (LLMs) has driven the d
 
 [Universal Deep Research: Bring Your Own Model and Strategy](https://arxiv.org/pdf/2509.00244)https://arxiv.org/search/?searchtype=author&query=Molchanov%2C+P)   自定义deep research的研究策略
 
-Abstract: Deep research tools are among the most impactful and most commonly encountered agentic systems today. We observe, however, that each deep research agent introduced so far is hard-coded to carry out a particular research strategy using a fixed choice of tools. We introduce Universal Deep Research (UDR), a generalist agentic system that wraps around any language model and enables the user to create, edit, and refine their own entirely custom deep research strategies without any need for additional training or finetuning. To showcase the generality of our system, we equip UDR with example minimal, expansive, and intensive research strategies, and provide a user interface to facilitate experimentation with the system.
+> Abstract: Deep research tools are among the most impactful and most commonly encountered agentic systems today. We observe, however, that each deep research agent introduced so far is hard-coded to carry out a particular research strategy using a fixed choice of tools. We introduce Universal Deep Research (UDR), a generalist agentic system that wraps around any language model and enables the user to create, edit, and refine their own entirely custom deep research strategies without any need for additional training or finetuning. To showcase the generality of our system, we equip UDR with example minimal, expansive, and intensive research strategies, and provide a user interface to facilitate experimentation with the system.
+>
 
 
 
@@ -78,7 +88,8 @@ Abstract: Deep research tools are among the most impactful and most commonly enc
 
 [[2502.05957\] AutoAgent: A Fully-Automated and Zero-Code Framework for LLM Agents](https://arxiv.org/abs/2502.05957)  港大的开源项目，应该是集成了之前的deep research项目
 
-Large Language Model (LLM) Agents have demonstrated remarkable capabilities in task automation and intelligent decision-making, driving the widespread adoption of agent development frameworks such as LangChain and AutoGen. However, these frameworks predominantly serve developers with extensive technical expertise - a significant limitation considering that only 0.03 % of the global population possesses the necessary programming skills. This stark accessibility gap raises a fundamental question: Can we enable everyone, regardless of technical background, to build their own LLM agents using natural language alone? To address this challenge, we introduce AutoAgent-a Fully-Automated and highly Self-Developing framework that enables users to create and deploy LLM agents through Natural Language Alone. Operating as an autonomous Agent Operating System, AutoAgent comprises four key components: i) Agentic System Utilities, ii) LLM-powered Actionable Engine, iii) Self-Managing File System, and iv) Self-Play Agent Customization module. This lightweight yet powerful system enables efficient and dynamic creation and modification of tools, agents, and workflows without coding requirements or manual intervention. Beyond its code-free agent development capabilities, AutoAgent also serves as a versatile multi-agent system for General AI Assistants. Comprehensive evaluations on the GAIA benchmark demonstrate AutoAgent's effectiveness in generalist multi-agent tasks, surpassing existing state-of-the-art methods. Furthermore, AutoAgent's Retrieval-Augmented Generation (RAG)-related capabilities have shown consistently superior performance compared to many alternative LLM-based solutions.
+> Large Language Model (LLM) Agents have demonstrated remarkable capabilities in task automation and intelligent decision-making, driving the widespread adoption of agent development frameworks such as LangChain and AutoGen. However, these frameworks predominantly serve developers with extensive technical expertise - a significant limitation considering that only 0.03 % of the global population possesses the necessary programming skills. This stark accessibility gap raises a fundamental question: Can we enable everyone, regardless of technical background, to build their own LLM agents using natural language alone? To address this challenge, we introduce AutoAgent-a Fully-Automated and highly Self-Developing framework that enables users to create and deploy LLM agents through Natural Language Alone. Operating as an autonomous Agent Operating System, AutoAgent comprises four key components: i) Agentic System Utilities, ii) LLM-powered Actionable Engine, iii) Self-Managing File System, and iv) Self-Play Agent Customization module. This lightweight yet powerful system enables efficient and dynamic creation and modification of tools, agents, and workflows without coding requirements or manual intervention. Beyond its code-free agent development capabilities, AutoAgent also serves as a versatile multi-agent system for General AI Assistants. Comprehensive evaluations on the GAIA benchmark demonstrate AutoAgent's effectiveness in generalist multi-agent tasks, surpassing existing state-of-the-art methods. Furthermore, AutoAgent's Retrieval-Augmented Generation (RAG)-related capabilities have shown consistently superior performance compared to many alternative LLM-based solutions.
+>
 
 
 
@@ -124,14 +135,14 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 
 1. https://chatgpt.com/share/67b142cb-030c-8011-b0c8-8a1071dd8094 
    [OpenAI Deep Research 案例分享 - 深度研究技术综合研究报告 | Yue Shui 博客](https://syhya.github.io/zh/posts/2025-02-15-deep-research-tech-report/)
-   
-   
+
+
    一个博主分享的用OpenAI Deep Research写报告的实例（*对“深度研究”技术进行深入研究，并编写一份综合研究报告*）
-   
+
 2. [OpenManus/examples/use_case at main · FoundationAgents/OpenManus · GitHub](https://github.com/FoundationAgents/OpenManus/tree/main/examples/use_case)
    官网的图片显示不出来，github上又只有这一个例子
    [OpenManus 项目概览 | mannaandpoem/OpenManus - KoalaWiki](https://opendeep.wiki/mannaandpoem/OpenManus/overview)
-   
+
 3. https://github.com/langchain-ai/open_deep_research?tab=readme-ov-file
    langchain 一个开源的deep research框架，调用其他LLM的api key 实现深度研究
    类似的，dify低代码平台
@@ -143,15 +154,18 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 
 ### 每日进度
 
-| 时间     |                                                              |
-| -------- | ------------------------------------------------------------ |
-| 2025.9.1 | 阅读A Comprehensive Survey of Deep Research: Systems, Methodologies, and Applications，和之前读的一起加起来读到了第四章。papers文件夹里有论文原文与批注、论文概况。 |
-| 9.2      | 看到第七章                                                   |
-| 9.3-9.4  | 看完余下章节，总结了一下全篇（主要是前几章）                 |
-| 9.5-9.6  | 看完openai的Deep Research System Card ，了解了一些评估与其能力、存在风险 |
-| 9.7-9.8  | 又找了一些论文和开源的项目准备看，看部分了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP，比第一篇survey清晰一些，框架更为清楚但具体细节未交代需要找开源的看。 |
-| 9.9      | 读完了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP |
-| 9.11     | 看了一些实例，用豆包试了一下deep research                    |
+| 时间      |                                                              |
+| --------- | ------------------------------------------------------------ |
+| 2025.9.1  | 阅读A Comprehensive Survey of Deep Research: Systems, Methodologies, and Applications，和之前读的一起加起来读到了第四章。papers文件夹里有论文原文与批注、论文概况。 |
+| 9.2       | 看到第七章                                                   |
+| 9.3-9.4   | 看完余下章节，总结了一下全篇（主要是前几章）                 |
+| 9.5-9.6   | 看完openai的Deep Research System Card ，了解了一些评估与其能力、存在风险 |
+| 9.7-9.8   | 又找了一些论文和开源的项目准备看，看部分了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP，比第一篇survey清晰一些，框架更为清楚但具体细节未交代需要找开源的看。 |
+| 9.9       | 读完了DEEP RESEARCH AGENTS:A SYSTEMATIC EXAMINATION AND ROADMAP |
+| 9.11      | 看了一些实例，用豆包试了一下deep research                    |
+| 9.12      | 阅读Toolformer论文（让agent学会在何种情况使用api）           |
+| 9.13-9.14 | 读了综述论文Deep Research: A Survey of Autonomous Research Agents，我觉得明天可以看代码的实际流程了 |
+| 9.16-9.17 | 读了langchain的open deep research项目的部分代码，其实我感觉就是提示词工程和适当的工具调用 |
 
 
 
