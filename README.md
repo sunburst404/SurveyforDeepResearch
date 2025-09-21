@@ -166,6 +166,7 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 | 9.12      | 阅读Toolformer论文（让agent学会在何种情况使用api）           |
 | 9.13-9.14 | 读了综述论文Deep Research: A Survey of Autonomous Research Agents，我觉得明天可以看代码的实际流程了 |
 | 9.16-9.17 | 读了langchain的open deep research项目的部分代码，其实我感觉就是提示词工程和适当的工具调用 |
+| 9.18-9.21 | 断断续续的读完了open deep research的主要代码，知道了流程（papers文件夹的画了简易的流程图-xmind文件），最主要的就是发给llm的提示词和工具的调用（当然也包括”在哪“和使用什么工具）<br />这两天也把这个项目部署了一下，默认的openai可以使用；goole的gemini有些问题；使用openrouter可以使用qwen模型，但是要花钱；阿里百炼平台使用qwen-plus的api会出现格式问题（qwen不支持openai的兼容模式，而langchain/open deep research使用的是openai的格式），改的地方还无从下手<br />也可以本地部署，官方说的是使用ollama管理本地llm，这个还没开始研究。 |
 
 
 
@@ -178,6 +179,6 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 | 时间 | 位置                        | 具体问题                                                     | 是否解决 |
 | ---- | --------------------------- | ------------------------------------------------------------ | -------- |
 | 9.1  | 关于deep research的实际用例 | 我还没有用过，得花时间试一下比如perplexity，openai deep research | yes      |
-| 9.6  | deep research框架           | 还要找个开源的看看框架，流程之类的                           | no       |
+| 9.6  | deep research框架           | 还要找个开源的看看框架，流程之类的                           | yes      |
 |      |                             |                                                              |          |
 |      |                             |                                                              |          |
