@@ -152,6 +152,12 @@ Large Language Model (LLM)-based multi-agent systems show promise for automating
 
 
 
+### 其他
+
+我在other中添加了使用langchain/open_deep_research的记录供参考
+
+
+
 ### 每日进度
 
 | 时间      |                                                              |
